@@ -1,0 +1,224 @@
+body{
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+
+h3{
+    font-family: 'Montserrat', sans-serif;
+    color: #15133C;
+}
+p{
+    color: #15133C;
+    line-height: 2;
+}
+a{
+    color:#F1EEE9;
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+a:hover{
+    color: white;
+}
+
+hr{
+    border: dotted #dad8d8 6px;
+    border-bottom: none;
+    width: 10%;
+    margin: 100px auto;
+}
+
+/* Custom Classes */
+
+/* Top Container */
+.topContainer {
+    color :white;
+    background-color: #15133C;
+    padding-top:100px;
+    position: relative;
+}
+
+.pro{
+    text-decoration: underline;
+}
+.intro{
+    width: 30%;
+    margin: 0 auto;
+}
+.introHeading{
+    color: #15133C;
+    margin-top: 50px auto 0 auto;
+    font-family: 'Sacramento', cursive;
+    /*  16px = 100% = 1rem */
+    /* rem and % font metrics are used to set a dynamic font size */
+    /* always use "rem" to avoid inherting pre-set sizes from parent containers */
+    font-size: 5.625rem;
+    color: white;
+}
+.intro-name{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    font-weight: normal;
+    color: #fff;
+}
+.topCloud{
+    position: absolute;
+    left: 70%;
+    top: 5%;
+    max-width: 30%;
+}
+
+.bottomCloud{
+    position: absolute;
+    right: 70%;
+    max-width: 30%;
+}
+
+.mountain{
+    margin-top: 100px;
+    max-width: 90%;
+}
+/* =============================================================================== */
+/* Middle Container */
+.middleContainer{
+    color: #15133C;
+    background-color: #F1EEE9;
+    padding-top: 100px;
+    padding-bottom: 20px;
+}
+.profile-img{
+    max-width: 50%;
+}
+.code-img-contain{
+    text-align: right;
+}
+.producer-img-contain{
+    text-align: left;
+}
+.skill-row-code{
+    width: 70%;
+    /* because class has a width, to center it, use margin as follows: */
+    margin: 100px 100px auto 100px;
+    text-align: left;
+}
+.skill-row-producer{
+    width: 70%;
+    /* because class has a width, to center it, use margin as follows: */
+    margin: 100px 100px 100px auto;
+    text-align: right;
+}
+.codeImage{
+    max-width: 40%;
+    margin-right: 20px;
+}
+.producerImage{
+    max-width: 40%;
+    margin-left: 20px;
+}
+
+.skill-row-producer p{
+    text-align: left;
+}
+/* ======================================================================================================= */
+/* Bottom Container */
+
+.bottomContainer{
+    background-color: #EC994B;
+    text-decoration: none;
+    color: #F1EEE9;
+    /* the following padding solves the footer having a default margin */
+    padding: 50px 0 20px;
+}
+
+/* Contact Me Section */
+.contact-me{
+    width: 40%;
+    margin: 40px auto 60px;
+}
+
+.btn {
+    background: #15133C;
+    background-image: -webkit-linear-gradient(top, #15133C, #EC994B);
+    background-image: -moz-linear-gradient(top, #15133C, #EC994B);
+    background-image: -ms-linear-gradient(top, #15133C, #EC994B);
+    background-image: -o-linear-gradient(top, #15133C, #EC994B);
+    background-image: linear-gradient(to bottom, #15133C, #EC994B);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #EC994B;
+    background-image: -webkit-linear-gradient(top, #EC994B, #F1EEE9);
+    background-image: -moz-linear-gradient(top, #EC994B, #F1EEE9);
+    background-image: -ms-linear-gradient(top, #EC994B, #F1EEE9);
+    background-image: -o-linear-gradient(top, #EC994B, #F1EEE9);
+    background-image: linear-gradient(to bottom, #EC994B, #F1EEE9);
+    text-decoration: none;
+  }
+
+  .copyRight{
+    color:#F1EEE9;
+    font-size: 0.90rem;
+    padding: 20px 0px;
+  }
+
+  @media (max-width:1000px){
+    .topContainer{
+        text-align: center;
+    }
+    .introHeading{
+        position: relative;
+        color: white;
+        text-align: center;
+    }
+    .intro{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .contact-me{
+        width: 100%;
+        margin: 40px auto 60px;
+    }
+
+    .skill-row-code{
+        width: 70%;
+       
+        margin: 100px auto;
+        text-align: center;
+    }
+    .skill-row-producer{
+        width: 70%;
+        margin: 100px auto;
+        text-align: center;
+    }
+
+    .skill-row-producer p{
+        text-align: center;
+    }
+   
+    .code-img-contain{
+        text-align: center;
+    }
+    .producer-img-contain{
+        text-align: center;
+    }
+
+    .codeImage{
+        max-width: 40%;
+        margin-right: 0;
+    }
+    .producerImage{
+        max-width: 40%;
+        margin-left: 0; 
+    }
+     
+
+  }
